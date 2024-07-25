@@ -1,0 +1,18 @@
+# CREATE A TUPLE
+t = (1, 2, 3)
+
+
+# CONVERT THE TUPLE TO LIST
+ls = list(t)
+
+
+# SWAP THE ELEMENTS IN THE LIST USING THEIR INDEX
+ls[1], ls[2] = ls[2], ls[1]
+
+
+# CREATE A NEW TUPLE FROM THE LIST ELEMENTS
+new_t = tuple(ls)
+
+
+# PRINT THE NEW TUPLE
+print(new_t)
